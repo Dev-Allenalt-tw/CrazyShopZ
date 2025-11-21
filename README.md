@@ -3,6 +3,8 @@
 
 **CrazyShopZ** is an advanced, fully-featured shop plugin for Minecraft 1.21.x servers using Spigot/Paper API.
 
+<img src="CrazyShopZ/src/main/images/logo.png" alt="CrazyShopZ Plugin Logo" width="200"/>
+
 ## Features
 
 - 📦 **Category-Based Shop System** - Organize items into configurable categories
