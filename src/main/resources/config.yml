@@ -1,0 +1,204 @@
+# CrazyShopZ Configuration File
+# Author: Dev_Allenalt_tw
+# Version: 1.0.0
+
+prefix: "&6&lCRAZYSHOP&f&lZ &8»&r"
+
+# Menu Settings
+menu:
+  main-shop:
+    title: "&8Shop Menu"
+    size: 54
+  category:
+    title: "&8{category}"
+    size: 54
+  sell-gui:
+    title: "&8Sell Items"
+    size: 54
+
+# GUI Items Configuration
+gui-items:
+  back:
+    item: SPECTRAL_ARROW
+    slot: 22
+    name: "&6« &fBack"
+    lore:
+      - "&8Navigation"
+      - ""
+      - "&fReturn to the"
+      - "&fmain shop menu"
+      - ""
+      - "&eClick to Go Back"
+
+  next-page:
+    item: LIME_CANDLE
+    slot: 26
+    name: "&a↑ &fNext Page &a↑"
+    lore:
+      - "&8Navigation"
+      - ""
+      - "&fView the next page"
+      - "&fof items"
+      - ""
+      - "&eClick for Next Page"
+
+  previous-page:
+    item: RED_CANDLE
+    slot: 18
+    name: "&c↓ &fPrevious Page &c↓"
+    lore:
+      - "&8Navigation"
+      - ""
+      - "&fView the previous page"
+      - "&fof items"
+      - ""
+      - "&eClick for Previous Page"
+
+  close-menu:
+    item: BARRIER
+    slot: 49
+    name: "&c✗ &fClose Shop &c✗"
+    lore:
+      - "&8Shop Item"
+      - ""
+      - "&fClick to close the"
+      - "&fshop menu"
+      - ""
+      - "&eClick to Close"
+
+  info:
+    item: BOOK
+    slot: 4
+    name: "&e&lShop Information"
+    lore:
+      - "&8Info"
+      - ""
+      - "&fWelcome to CrazyShopZ!"
+      - "&fBuy and sell items here"
+      - ""
+      - "&7Categories: &e{categories}"
+
+  balance:
+    item: GOLD_INGOT
+    slot: 0
+    name: "&6&lYour Balance"
+    lore:
+      - "&8Economy"
+      - ""
+      - "&fBalance: &a${balance}"
+      - "&fSpent: &c${spent}"
+      - "&fEarned: &a${earned}"
+
+  search:
+    item: COMPASS
+    slot: 8
+    name: "&b&lSearch Items"
+    lore:
+      - "&8Search"
+      - ""
+      - "&fClick to search for"
+      - "&fspecific items"
+      - ""
+      - "&7Coming Soon!"
+
+  sort:
+    item: HOPPER
+    slot: 45
+    name: "&d&lSort Items"
+    lore:
+      - "&8Sort"
+      - ""
+      - "&fSort by: &eDefault"
+      - ""
+      - "&7Coming Soon!"
+
+  filler:
+    item: GRAY_STAINED_GLASS_PANE
+    name: " "
+
+# Item Display Configuration
+item-display:
+  buy-lore:
+    - "&8Shop Item"
+    - ""
+    - "&fBuy Price: &a${buy-price}"
+    - "&fSell Price: &c${sell-price}"
+    - ""
+    - "&eLeft Click to Buy 1"
+    - "&eRight Click to Buy 64"
+    - "&eShift + Right Click to Sell All"
+
+  no-buy:
+    - "&8Shop Item"
+    - ""
+    - "&fBuy Price: &cN/A"
+    - "&fSell Price: &c${sell-price}"
+    - ""
+    - "&eShift + Right Click to Sell All"
+
+  no-sell:
+    - "&8Shop Item"
+    - ""
+    - "&fBuy Price: &a${buy-price}"
+    - "&fSell Price: &cN/A"
+    - ""
+    - "&eLeft Click to Buy 1"
+    - "&eRight Click to Buy 64"
+
+# Sell GUI Settings
+sell-gui:
+  slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  
+  confirm-button:
+    item: LIME_DYE
+    slot: 48
+    name: "&a&lConfirm Sale"
+    lore:
+      - "&8Sell Items"
+      - ""
+      - "&fTotal Value: &a${value}"
+      - ""
+      - "&eClick to Sell All"
+
+  cancel-button:
+    item: RED_DYE
+    slot: 50
+    name: "&c&lCancel"
+    lore:
+      - "&8Cancel"
+      - ""
+      - "&fReturn items to"
+      - "&fyour inventory"
+      - ""
+      - "&eClick to Cancel"
+
+# Economy Settings
+economy:
+  currency-symbol: "$"
+  decimal-places: 2
+
+# Database (for tracking stats)
+database:
+  track-stats: true
+  stats-file: "playerdata.yml"
