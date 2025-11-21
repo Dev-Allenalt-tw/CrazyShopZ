@@ -1,0 +1,24 @@
+# CrazyShopZ Messages Configuration
+
+# General Messages
+no-permission: "&cYou don't have permission to do that!"
+reload-success: "&aConfiguration reloaded successfully!"
+player-only: "&cThis command can only be used by players!"
+
+# Economy Messages
+not-enough-money: "&cYou don't have enough money! You need ${required}."
+purchase-success: "&aYou purchased {amount}x {item} for ${price}!"
+sell-success: "&aYou sold {amount}x {item} for ${price}!"
+inventory-full: "&cYour inventory is full!"
+not-enough-items: "&cYou don't have enough items to sell!"
+
+# Shop Messages
+category-not-found: "&cCategory not found!"
+item-not-sellable: "&cThis item cannot be sold!"
+item-not-buyable: "&cThis item cannot be purchased!"
+shop-opened: "&aShop opened!"
+
+# Sell GUI Messages
+sell-gui-empty: "&cYou have no items to sell!"
+sell-cancelled: "&cSale cancelled. Items returned to your inventory."
+sell-gui-info: "&7Place items in the slots to sell them"
