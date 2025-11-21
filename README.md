@@ -1,6 +1,5 @@
 # CrazyShopZ
 
-[![Build Status](https://github.com/Dev_Allenalt_tw/CrazyShopZ/workflows/Build%20CrazyShopZ/badge.svg)](https://github.com/Dev_Allenalt_tw/CrazyShopZ/actions)
 
 **CrazyShopZ** is an advanced, fully-featured shop plugin for Minecraft 1.21.x servers using Spigot/Paper API.
 
